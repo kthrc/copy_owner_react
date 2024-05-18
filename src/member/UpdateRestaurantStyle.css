@@ -1,0 +1,67 @@
+@media (min-width: 500px) {
+    input::placeholder {
+        font-size: 35px;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header > img {
+        width: 350px;
+        height: fit-content;
+    }
+
+    div > img {
+        width:80px;
+        position: absolute;
+        z-index : 1;
+        margin-top:10px;
+        margin-left:650px;
+    }
+    #updateRestaurant {
+        font-size: 45px;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    #updateRestaurant > label,
+    #updateRestaurant > input,
+    #updateRestaurant > div {
+        margin-top: 10px;
+    }
+
+    #updateRestaurant > div {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #updateRestaurant > div > input:first-child {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .blank {
+        border-color: lightgray;
+        height: 90px;
+    }
+
+    .button {
+        background-color: lemonchiffon;
+        border: none;
+        font-size: 40px;
+        border-radius: 30px;
+        height: 150px;
+    }
+
+    a {
+        font-size:30px;
+        color: black;
+
+        align-items: center;
+    }
+}

@@ -1,0 +1,163 @@
+@media (max-width: 360px) {
+    body {
+        font-size: 10px;
+        /*align-items: center;*/
+    }
+
+    div form {
+        align-content: center;
+    }
+    header > img {
+        width: 100%;
+        max-width: 150px;
+        height: auto;
+        object-fit: contain;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*아이디, 비밀번호 글자*/
+    #updateInfo {
+        font-size: 15px;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 3px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #updateInfo label,
+    #updateInfo input,
+    #updateInfo div {
+        margin-top: 10px;
+        height: 10%;
+
+    }
+
+    #updateInfo div {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    /*아이디, 비밀번호 입력창 크기 및 설정*/
+    #updateInfo div input:first-child {
+        width: 100%;
+        height: 5%;
+        font-size: 20px;
+        margin-top: auto;
+    }
+
+    #updateInfo div .blank {
+        border: 1px solid lightgray;
+        height: 5%;
+        width: 100%;
+        padding: 3px;
+        font-size: 5px;
+
+    }
+
+    input#certificationNum.blank {
+        border: 1px solid lightgray;
+        width: 100%;
+        height: 5%;
+        font-size: 20px;
+        margin-top: 5%;
+        padding: 3px;
+    }
+
+    input#restaurantPhoto.blank {
+        border: 1px solid lightgray;
+        width: 100%;
+        height: 5%;
+        font-size: 10px;
+        margin-top: 5%;
+        padding: 3px;
+    }
+    /*input .blank {*/
+    /*    border: 1px solid lightgray;*/
+    /*    height: 5%;*/
+    /*    width: 100%;*/
+    /*    padding: 3px;*/
+    /*    font-size: 5px;*/
+    /*}*/
+
+    #updateInfo div .blank:active {
+        background-color: lightgray;
+        cursor: pointer;
+    }
+
+    .button[type="button"] {
+        background-color: lemonchiffon !important; /* 배경색 적용을 보장하기 위해 !important 추가 */
+        border: none;
+        font-size: 20px;
+        border-radius: 15px;
+        height: 50px;
+        cursor: pointer;
+        width: 40%;
+
+        margin-left: 5%;
+        margin-right: auto;
+
+    }
+
+    .button[type="submit"] {
+        background-color: lemonchiffon !important; /* 배경색 적용을 보장하기 위해 !important 추가 */
+        border: none;
+        font-size: 20px;
+        border-radius: 15px;
+        height: 50px;
+        cursor: pointer;
+        width: 100%;
+
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    /*아이디 찾기, 비밀번호 재설정, 회원가입 (로그인 버튼 하단)*/
+    div > a {
+        font-size: 13px;
+        color: black;
+        margin-top: 10px;
+        text-decoration: none;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*자물쇠, 체크버튼 이미지*/
+    #updateInfo > div > img {
+        width:8%;
+        height:auto;
+        position: absolute;
+        z-index : 1;
+        margin-left:67%;
+        margin-top:-0.02%;
+        object-fit: contain;
+    }
+
+    /*input::placeholder {*/
+    /*    font-size: 10px;*/
+    /*}*/
+
+    .input-file-button{
+        background-color: lightgrey; /* 배경색 적용을 보장하기 위해 !important 추가 */
+        border: none;
+        font-size: 15px;
+        border-radius: 15px;
+        height: 50px;
+        cursor: pointer;
+        width: 30%;
+        text-align: center;
+
+    }
+
+    input#fileUpload.file-input {
+        display: inline-block;
+        cursor: pointer;
+
+    }
+}
