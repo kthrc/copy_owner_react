@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import './UpdateRestaurantStyle.css';
+import logoImage from '../img/semohan-logo.png';
+import lock from "../img/lock.png"
+import beforeCheck from "../img/free-icon-checkmark-656971.png"
 
 function UpdateRestaurant() {
     const [formData, setFormData] = useState({
@@ -30,7 +33,7 @@ function UpdateRestaurant() {
     return (
         <div>
             <header>
-                <img src="/img/semohan-logo.png" alt="logo" />
+                <img src={logoImage} alt="logo" />
             </header>
 
             <form id="updateRestaurant" method="post" action="" onSubmit={handleSubmit}>
@@ -119,7 +122,7 @@ function UpdateRestaurant() {
                         value={formData.password}
                         onChange={handleChange}
                     />
-                    <img src="/img/lock.png" alt="lock" />
+                    <img src={lock} alt="lock" />
                 </div>
 
                 <label htmlFor="passwordCheck">비밀번호 재확인</label>
@@ -132,7 +135,7 @@ function UpdateRestaurant() {
                         value={formData.passwordCheck}
                         onChange={handleChange}
                     />
-                    <img src="/img/check.png" alt="check" />
+                    <img src={beforeCheck} alt="check" />
                 </div>
 
                 <div>

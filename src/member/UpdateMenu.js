@@ -28,6 +28,15 @@ function UpdateMenu() {
     const addSubMenu = (e) => {
         e.preventDefault();
         setSubMenus([...subMenus, '']);
+
+
+        // if (subMenus.length + 1 <= maxSubMenus) {
+        //     setSubMenus([...subMenus, '', '']);
+        // } else {
+        //     alert(`최대 ${maxSubMenus}개까지 추가 가능합니다.`);
+        // }
+        //
+        // alert(subMenus.length+1);
     };
 
     const handleMainMenuChange = (index, value) => {

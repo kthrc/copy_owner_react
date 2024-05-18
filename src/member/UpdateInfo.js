@@ -31,6 +31,8 @@ function UpdateInfo() {
         // Handle form submission logic here
         console.log(formData);
 
+
+
         if (selectedFile) {
             const formData = new FormData();
             formData.append('file', selectedFile);

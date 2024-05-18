@@ -21,7 +21,7 @@
     }
 
 
-    #updateMenu {
+    #registerMenu {
         font-size: 20px;
         width: 90%;
         display: flex;
@@ -31,25 +31,25 @@
         margin-right: auto;
     }
 
-    #updateMenu > label,
-    #updateMenu > input,
-    #updateMenu > div {
+    #registerMenu > label,
+    #registerMenu > input,
+    #registerMenu > div {
         margin-top: 10px;
         height: 10%;
     }
 
-    #updateMenu > div > select {
+    #registerMenu > div > select {
         display: flex;
         justify-content: space-between;
         height: 40px;
     }
 
-    #updateMenu > div {
+    #registerMenu > div {
         display: flex;
         justify-content: space-between;
     }
 
-    #updateMenu > div > input {
+    #registerMenu > div > input {
         width: 70%;
         font-size: 16px;
     }

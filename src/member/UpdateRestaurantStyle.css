@@ -1,67 +1,275 @@
-@media (min-width: 500px) {
-    input::placeholder {
-        font-size: 35px;
-    }
+/*@media (min-width: 500px) {*/
+/*    input::placeholder {*/
+/*        font-size: 35px;*/
+/*    }*/
 
+/*    body {*/
+/*        display: flex;*/
+/*        flex-direction: column;*/
+/*        align-items: center;*/
+/*    }*/
+
+/*    header > img {*/
+/*        width: 350px;*/
+/*        height: fit-content;*/
+/*    }*/
+
+/*    div > img {*/
+/*        width:80px;*/
+/*        position: absolute;*/
+/*        z-index : 1;*/
+/*        margin-top:10px;*/
+/*        margin-left:650px;*/
+/*    }*/
+/*    #updateRestaurant {*/
+/*        font-size: 45px;*/
+/*        width: 80%;*/
+/*        display: flex;*/
+/*        flex-direction: column;*/
+/*        margin-top: 50px;*/
+/*    }*/
+
+/*    #updateRestaurant > label,*/
+/*    #updateRestaurant > input,*/
+/*    #updateRestaurant > div {*/
+/*        margin-top: 10px;*/
+/*    }*/
+
+/*    #updateRestaurant > div {*/
+/*        display: flex;*/
+/*        justify-content: space-between;*/
+/*    }*/
+
+/*    #updateRestaurant > div > input:first-child {*/
+/*        width: 100%;*/
+/*        font-size: 30px;*/
+/*    }*/
+
+/*    .blank {*/
+/*        border-color: lightgray;*/
+/*        height: 90px;*/
+/*    }*/
+
+/*    .button {*/
+/*        background-color: lemonchiffon;*/
+/*        border: none;*/
+/*        font-size: 40px;*/
+/*        border-radius: 30px;*/
+/*        height: 150px;*/
+/*    }*/
+
+/*    a {*/
+/*        font-size:30px;*/
+/*        color: black;*/
+
+/*        align-items: center;*/
+/*    }*/
+/*}*/
+
+/*@media (min-width: 300px) {*/
+
+/*    input::placeholder {*/
+/*        font-size: 35px;*/
+/*    }*/
+
+/*    body {*/
+/*        display: flex;*/
+/*        flex-direction: column;*/
+/*        align-items: center;*/
+/*    }*/
+
+/*    header > img {*/
+/*        width: 350px;*/
+/*        height: fit-content;*/
+/*    }*/
+
+/*    #newPassword {*/
+/*        font-size: 45px;*/
+/*        width: 80%;*/
+/*        display: flex;*/
+/*        flex-direction: column;*/
+/*        margin-top: 230px;*/
+/*    }*/
+
+/*    #newPassword > label,*/
+/*    #newPassword > input,*/
+/*    #newPassword > div {*/
+/*        margin-top: 30px;*/
+
+/*    }*/
+
+/*    #newPassword > div {*/
+/*        display: flex;*/
+/*        justify-content: space-between;*/
+/*    }*/
+
+/*    #newPassword > div > input:first-child {*/
+/*        width: 100%;*/
+/*        font-size: 30px;*/
+/*    }*/
+/*    div > img {*/
+/*        width:80px;*/
+/*        position: absolute;*/
+/*        z-index : 1;*/
+/*        margin-top:10px;*/
+/*        margin-left:650px;*/
+/*    }*/
+/*    .blank {*/
+/*        border-color: lightgray;*/
+/*        height: 90px;*/
+/*    }*/
+
+/*    #newPassword > .button:last-child {*/
+/*        height: 150px;*/
+
+/*    }*/
+
+/*    .button {*/
+/*        background-color: lemonchiffon;*/
+/*        border: none;*/
+/*        font-size: 20px;*/
+/*        border-radius: 30px;*/
+
+/*    }*/
+
+
+/*}*/
+
+@media (max-width: 360px) {
     body {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        font-size: 10px;
+        /*align-items: center;*/
     }
 
+    div form {
+        align-content: center;
+    }
     header > img {
-        width: 350px;
-        height: fit-content;
+        width: 100%;
+        max-width: 150px;
+        height: auto;
+        object-fit: contain;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
-    div > img {
-        width:80px;
-        position: absolute;
-        z-index : 1;
-        margin-top:10px;
-        margin-left:650px;
-    }
+    /*아이디, 비밀번호 글자*/
     #updateRestaurant {
-        font-size: 45px;
-        width: 80%;
-        display: flex;
+        font-size: 15px;
+        width: 100%;
+        /*display: flex;*/
         flex-direction: column;
-        margin-top: 50px;
+        margin-top: 3px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
-    #updateRestaurant > label,
-    #updateRestaurant > input,
-    #updateRestaurant > div {
+    #updateRestaurant label,
+    #updateRestaurant input,
+    #updateRestaurant div {
         margin-top: 10px;
+        height: 10%;
+        margin-bottom: 2px;
     }
 
-    #updateRestaurant > div {
+    #updateRestaurant div {
         display: flex;
         justify-content: space-between;
+
     }
 
-    #updateRestaurant > div > input:first-child {
+    /*아이디, 비밀번호 입력창 크기 및 설정*/
+    #updateRestaurant div input:first-child {
         width: 100%;
-        font-size: 30px;
+        height: 5%;
+        font-size: 20px;
+        margin-top: auto;
     }
 
-    .blank {
-        border-color: lightgray;
-        height: 90px;
+    #updateRestaurant div .blank {
+        border: 1px solid lightgray;
+        height: 5%;
+        width: 100%;
+        padding: 3px;
+        font-size: 5px;
+
     }
 
-    .button {
-        background-color: lemonchiffon;
+    input#certificationNum.blank {
+        border: 1px solid lightgray;
+        width: 100%;
+        height: 5%;
+        font-size: 20px;
+        margin-top: 5%;
+        padding: 3px;
+    }
+
+    /*input .blank {*/
+    /*    border: 1px solid lightgray;*/
+    /*    height: 5%;*/
+    /*    width: 100%;*/
+    /*    padding: 3px;*/
+    /*    font-size: 5px;*/
+    /*}*/
+
+    #updateRestaurant div .blank:active {
+        background-color: lightgray;
+        cursor: pointer;
+    }
+
+    .button[type="button"] {
+        background-color: lemonchiffon !important; /* 배경색 적용을 보장하기 위해 !important 추가 */
         border: none;
-        font-size: 40px;
-        border-radius: 30px;
-        height: 150px;
+        font-size: 20px;
+        border-radius: 15px;
+        height: 50px;
+        cursor: pointer;
+        width: 40%;
+
+        margin-left: 5%;
+        margin-right: auto;
+
     }
 
-    a {
-        font-size:30px;
+    .button[type="submit"] {
+        background-color: lemonchiffon !important; /* 배경색 적용을 보장하기 위해 !important 추가 */
+        border: none;
+        font-size: 20px;
+        border-radius: 15px;
+        height: 50px;
+        cursor: pointer;
+        width: 100%;
+
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    /*아이디 찾기, 비밀번호 재설정, 회원가입 (로그인 버튼 하단)*/
+    div > a {
+        font-size: 13px;
         color: black;
-
-        align-items: center;
+        margin-top: 10px;
+        text-decoration: none;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
     }
+
+    /*자물쇠, 체크버튼 이미지*/
+    #updateRestaurant > div > img {
+        width:8%;
+        height:auto;
+        position: absolute;
+        z-index : 1;
+        margin-left:60%;
+        margin-top:-0.02%;
+        object-fit: contain;
+    }
+
+    /*input::placeholder {*/
+    /*    font-size: 10px;*/
+    /*}*/
 }
+

@@ -12,7 +12,10 @@ function NewPassword() {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        // Add your form submission logic here
+
+        // 로그인 버튼 클릭시 입력창 reset
+        setUsername("");
+        setPassword("");
     };
 
     return (
